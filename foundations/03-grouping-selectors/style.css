@@ -1,0 +1,20 @@
+/* style sheet */
+
+/* button class */
+
+.left,
+.right {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* left button */
+.left {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 360%);
+}
+
+/* right button */
+.right {
+    background-color: hsl(54, 89%, 51%);
+}
