@@ -1,0 +1,31 @@
+/*style sheet for 02-class-id-selectors */
+
+/* this should be for odd elements, using <p> */
+
+.odd-element {
+    background-color: hsl(308,100%,79%);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* element 2 only */
+
+#second-element {
+    color: hsl(228, 83%, 34%);
+    font-size: 36px;
+}
+
+/* third element gets odd-element plus its own unique styles */
+
+.third-element {
+
+    font-size: 36px;
+}
+
+/* fourth element is unique ID */
+
+#fourth-element {
+    background-color: hsl(123, 56%, 63%);
+    font-size: 24px;
+    font-weight: bold;
+
+}
