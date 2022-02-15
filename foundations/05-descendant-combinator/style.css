@@ -1,0 +1,27 @@
+/* style sheet for foundation exercise 05 */
+
+/* commented out because this worked, wanted to try combining type descendent
+.container .text {
+    background-color: hsl(54, 89%, 51%);
+    color: hsl(360, 82%, 43%);
+    font-size: 20px;
+    text-align: center;
+}
+
+*/
+
+/* this worked, now will try to do type and class
+div p {
+    background-color: hsl(54, 89%, 51%);
+    color: hsl(360, 82%, 43%);
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+div .text {
+    background-color: hsl(54, 89%, 51%);
+    color: hsl(360, 82%, 43%);
+    font-size: 20px;
+    text-align: center;
+}
